@@ -25,6 +25,7 @@
     "chart.js": "2.9.4",
     "clsx": "1.1.1",
     "country-flag-icons": "1.4.14",
+    "cross-env": "^7.0.3",
     "date-fns": "2.25.0",
     "firebase": "9.4.1",
     "formik": "2.2.9",
@@ -72,7 +73,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev"
   },
   "eslintConfig": {
     "extends": [
